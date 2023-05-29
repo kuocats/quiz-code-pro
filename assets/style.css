@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+  
+body {
+    min-height: 100%;
+    line-height: 2;
+    font-family: 'Georgia'; 
+}
+
+input {
+    text-align: center;
+}
+
+#container {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+button {
+    text-align: center; 
+    font-size: 20px; 
+    font-family: Georgia; 
+    display: inline-block; 
+    padding: 5px;
+    width: 200;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+#BeginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#timer{
+    font-size: xx-large;
+    text-shadow: .5px 1px darkslategrey; 
+    text-align: center; 
+}
+
+#quiz-questions{
+    display: none;
+}
+
+#Results{
+    display: none;
+}
+
+
+
+#highScorePlacement {
+    display: none; 
+    border: solid; 
+    justify-content: center;
+}
+
+#playerName {
+    margin: .5rem;
+    height: 1.75rem; 
+}
+
+#highScore-Name {
+    float: right;
+}
+
+#highScore-Results {
+    float: right;
+}
+
+
+#EndPage {
+    display: none;
+}
+
